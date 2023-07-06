@@ -1,0 +1,172 @@
+@import url('Reset.css');
+@import url('Fonts.css');
+
+
+/*Estilos generales*/
+body{
+
+    background:#161616 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+    text-decoration: none;   
+
+}
+a:hover{
+
+    text-decoration: underline;
+}
+
+#Wrap{
+    
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+/*Header*/
+header{
+ 
+    width: 100%;
+    background: #021720;
+    background: linear-gradient(0deg, #021720 0%, #041c32 55%);
+    box-shadow: 0px 5px 5px;
+
+}
+
+#Subheader{
+
+    width: 200px;
+    margin: auto;
+    display:grid;
+    align-items: center;
+    padding-right: 310px;
+}
+
+#Nombre{
+
+color: aliceblue;
+margin-top: 100px;
+width: 500px;
+text-align: center;
+line-height: 2px;
+
+}
+#Profesión{
+    line-height: 0px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 140px;
+}
+  
+  li {
+    display: inline-block;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: rgb(152, 212, 255);
+  }
+/*-----MAIN----*/
+
+#main{
+
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+#Name{
+
+    font-size: 1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+/*----Contenido / Texto principal----*/
+#Main-description{
+    display: block;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;;
+    width: 1000px;
+    color: white;
+    margin: auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-justify:newspaper;
+    margin-top: 100px;
+}
+
+b{
+    color: rgb(88, 146, 254);
+}
+#Link{
+    color: rgb(255, 157, 157);
+}
+a:hover{
+    color: rgb(255, 65, 65);
+    
+}
+/* Footer */
+footer{
+
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 100px;
+}
+footer section{
+    padding-left: 41.5%;
+}
+
+footer #RRSS >div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+    object-fit: contain;
+}
+footer #RRSS .Linkedin:hover{
+    opacity: 0.7 ;
+}
+footer #RRSS .Twitter:hover{
+ opacity: 0.7 ;
+}
+footer #RRSS .Itchio:hover{
+ opacity: 0.7 ;
+}
+
+
+#Web_Data{
+
+    color:rgb(133, 133, 133) ;
+       float:right;
+       align-items: center;
+       margin-top: 10px;
+       margin-bottom: 20px;
+       text-align: center;
+       font-weight: bold;
+   
+}

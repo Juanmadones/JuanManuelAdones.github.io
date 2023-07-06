@@ -1,0 +1,276 @@
+@import url('Reset.css');
+@import url('Fonts.css');
+
+
+/*Estilos generales*/
+body{
+
+    background:#161616 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+    text-decoration: none;   
+
+}
+a:hover{
+
+    text-decoration: underline;
+}
+
+#Wrap{
+    
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+/*Header*/
+header{
+ 
+    width: 100%;
+    background: #021720;
+    background: linear-gradient(0deg, #021720 0%, #041c32 55%);
+    box-shadow: 0px 5px 5px;
+
+}
+
+#Subheader{
+
+    width: 200px;
+    margin: auto;
+    display:grid;
+    align-items: center;
+    padding-right: 310px;
+}
+
+#Nombre{
+
+color: aliceblue;
+margin-top: 100px;
+width: 500px;
+text-align: center;
+line-height: 2px;
+
+}
+#Profesión{
+    line-height: 0px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 140px;
+}
+  
+  li {
+    display: inline-block;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color: rgb(152, 212, 255);
+  }
+
+/*-----MAIN----*/
+
+#main{
+
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+#Name{
+
+    font-size: 1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+
+/*----Slider----*/
+#Description-slider {
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#Description-slider>ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#Description-slider>ul.slider {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 500px;
+}
+
+#Description-slider>ul.slider h1 {
+    position: absolute;
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#Description-slider>ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+#Description-slider>ul.slider li img {
+    width: 100%;
+    height: inherit;
+    object-fit:fill;
+}
+
+#Description-slider>ul.slider li:first-child {
+    opacity: 1;
+}
+
+#Description-slider>ul.slider li:target {
+    opacity: 1;
+}
+
+#Description-slider>.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+#Description-slider>.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#Description-slider>.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+/*----Contenido / Texto principal----*/
+#Main-description{
+    display: block;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;;
+    width: 800px;
+    color: white;
+    margin: auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-justify:newspaper;
+}
+
+#RitualBound p b{
+    color: rgb(255, 98, 98);
+}
+#DiasFelices p b{
+    color: rgb(114, 255, 173);
+}
+#HOTP p b{
+    color: rgb(114, 220, 255);
+}
+#Octomania p b{
+    color: rgb(255, 212, 119);
+}
+#TMB p b{
+    color: rgb(255, 104, 104);
+}
+#OOZZ p b{
+    color: rgb(255, 235, 60);
+}
+a{
+    text-decoration:underline;
+}
+
+#Link{
+    color: rgb(255, 157, 157);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    
+}
+#Video{
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+/* Footer */
+footer{
+
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 100px;
+}
+footer section{
+    padding-left: 41.5%;
+}
+
+footer #RRSS >div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    align-items: center;
+    object-fit: contain;
+}
+footer #RRSS .Linkedin:hover{
+    opacity: 0.7 ;
+}
+footer #RRSS .Twitter:hover{
+ opacity: 0.7 ;
+}
+footer #RRSS .Itchio:hover{
+ opacity: 0.7 ;
+}
+
+
+#Web_Data{
+
+    color:rgb(133, 133, 133) ;
+       float:right;
+       align-items: center;
+       margin-top: 10px;
+       margin-bottom: 20px;
+       text-align: center;
+       font-weight: bold;
+   
+}
