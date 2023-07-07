@@ -6,7 +6,7 @@
     <meta name="Keywords" content = "Programador, Artista técnico, tester, QA">
     <link rel="stylesheet" href="../css/Descriptions.css">
     <title>Juan Manuel Adones Rodríguez</title>
-    <link rel="Icon" href="multimedia/controller-icon-32425.png">
+    <link rel="Icon" href="../multimedia/avatarjuanma.png">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
                 <div id="Nombre">
 
                     <p><h1>Juan Manuel Adones Rodríguez</h1></p><br>
-                    <p id = "Profesión">Game programmer / Software developer</p><br>
+                    <p id = "Profesión">Videogame Developer</p><br>
                 </div>
                 
                 <div>
@@ -45,12 +45,24 @@
             
                     <ul class="menu">
                         <li>
-                            <a href="#slide1">•</a>
+                            <a id="slide_1" style ="background-color:white ;" onclick="changeBg(this);" href="#slide1">1</a>
                         </li>
                         <li>
-                            <a href="#slide2">•</a>
+                            <a id="slide_2"onclick="changeBg(this);" href="#slide2">2</a>
                         </li>
                     </ul>
+                    <script>
+                        function changeBg(a){
+                            if(a.id == "slide_1"){
+                                a.style.background = "white";
+                                document.getElementById("slide_2").style.background = "transparent";
+                            }
+                             if(a.id == "slide_2"){
+                                a.style.background = "white";
+                                document.getElementById("slide_1").style.background = "transparent";
+                            }
+                        }
+                    </script>
             
                 </div>
                 <div id = "Main-description">
