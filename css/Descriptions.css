@@ -202,7 +202,12 @@ li {
     text-align: left;
     text-justify:newspaper;
 }
-
+#TP p b{
+    color: rgb(196, 0, 190);
+}
+#Sept14 p b{
+    color: rgb(255, 129, 75);
+}
 #RitualBound p b{
     color: rgb(255, 98, 98);
 }
