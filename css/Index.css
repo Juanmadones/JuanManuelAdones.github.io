@@ -196,11 +196,15 @@ footer #RRSS .Itchio:hover{
 #Web_Data{
 
     color:rgb(133, 133, 133) ;
-       float:right;
-       align-items: center;
-       margin-top: 10px;
-       margin-bottom: 20px;
-       text-align: center;
-       font-weight: bold;
+    float:right;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
    
+}
+
+#Visits{
+    margin-left: 18px;
 }
