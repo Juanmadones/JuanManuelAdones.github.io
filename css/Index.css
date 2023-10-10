@@ -143,12 +143,12 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 #Contenido article .Article_image{
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     float: left;
     position: relative;
     margin: 0px 10px 10px 0px;
-    object-fit: cover;
+    object-fit:fill;
 }
 #Contenido article .Article_image:hover{
     transform: scale(1.02);

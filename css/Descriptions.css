@@ -202,6 +202,14 @@ li {
     text-align: left;
     text-justify:newspaper;
 }
+
+p b{
+    -webkit-text-stroke: .2px rgb(0, 0, 0);
+}
+
+#TAQ p b{
+    color: rgb(255, 244, 146);
+}
 #TP p b{
     color: rgb(196, 0, 190);
 }
