@@ -206,7 +206,9 @@ li {
 p b{
     -webkit-text-stroke: .2px rgb(0, 0, 0);
 }
-
+#TB p b{
+    color: rgb(197, 34, 34);
+}
 #TAQ p b{
     color: rgb(255, 244, 146);
 }
